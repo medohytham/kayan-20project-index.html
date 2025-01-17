@@ -1,13 +1,12 @@
 header{
     background-color: black;
-    width: 80%;
+    width: 95%;
     position: fixed;
     z-index: 999;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:  space-around;
     align-items: center;
     padding: 15px 50px;
-    border-radius: 15px ;
 }
 .navigation a{
     color: rgb(255, 145, 0);
@@ -22,30 +21,24 @@ header{
     transform: scale(1.1);
 
 }
-.section{
-    padding: 120px 15px;
-    display: flex;
-    width: 95%;
-    background-color: rgb(0, 0, 0);
-}
-.section p{
-    color: rgb(255, 145, 0);
-}
+ 
+
+
 .view-project a{
       
-    color:rgb(0, 0, 0);
-    background-color:rgb(255, 145, 0) ;
-    text-decoration: none;
-    padding: 0 15px;
-    display: inline-block;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    transition: 0.1s ease;
-    
-   }
+     color:rgb(0, 0, 0);
+     background-color:rgb(255, 145, 0) ;
+     text-decoration: none;
+     padding: 0 15px;
+     display: inline-block;
+     border-radius: 15px;
+     margin-bottom: 40px;
+     transition: 0.1s ease;
+     
+    }
 .view-project:hover a{
-   background-color: rgba(255, 94, 0, 0.973);
-   transform: scale(1.1);
+    background-color: rgba(255, 94, 0, 0.973);
+    transform: scale(1.1);
 }
 .title {
     display: flex;
@@ -62,16 +55,19 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.card{.section{
+
+.card{ .section{
     padding: 100px 50px;
     display: flex;
     width: 95%;
     background-color: rgb(0, 0, 0);
 }
-.section p{
+
+.cards{
     color: rgb(255, 145, 0);
 }
     background-color: rgb(255, 145, 0);
+
     width: 21.25em;
     box-shadow: 0 5px 25px rgb(255, 174, 0,50%);
     border-radius: 10px;
@@ -119,14 +115,30 @@ header{
 }
 .about-us{
     background-color: black;
-    padding: 100px 15px;
+    padding: 100px 50px;
      
     width: 95%;
     justify-content: space-around;
 
     
 }
+img {
+    max-width:100%;
+}
 .about-us p{
     color: rgb(255, 145, 0);
     font-size: 1.4em;
+}
+.f{
+    padding: 100px 50px;
+    display: flex;
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+}
+
+.f p{
+    color: rgb(255, 145, 0);
+}
+.f p{
+    font-size: 1.1em;
 }
